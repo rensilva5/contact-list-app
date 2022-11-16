@@ -1,12 +1,13 @@
+import React from 'react';
 import './App.css';
+import ContactCard from './ContactCard';
 
 function App() {
-
-  const title = "hello World"
   return (
-    <div className="App">
-      
-      
+    <div>
+    <ContactCard />
+    <ContactCard />
+    <ContactCard />
     </div>
   );
 }
