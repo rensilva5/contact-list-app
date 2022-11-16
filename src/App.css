@@ -1,9 +1,10 @@
-/* body {
+body {
   display: flex;
   flex: auto;
   align-items: center;
-  justify-items: center;
-} */
+  justify-content: center;
+  background-color: #94b1b65b;
+}
 .contact-card {
   display: flex;
   padding: 10px;
@@ -12,8 +13,8 @@
   font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   box-shadow: 10px 10px 25px -16px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
-  max-width: 500px;
-  max-height: 125px;
+  max-width: 510px;
+  max-height: 130px;
   margin-bottom: 10px;
 }
 
@@ -26,3 +27,9 @@ button {
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
+/* .button-b {
+  justify-items: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} */
